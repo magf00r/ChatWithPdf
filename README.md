@@ -38,5 +38,5 @@ This project is a full-stack AI-powered application that allows users to:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/pdf-qa-chatbot.git
-cd pdf-qa-chatbot
+git clone https://github.com/magf00r/ChatWithPdf.git
+cd ChatWithPdf
