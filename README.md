@@ -33,7 +33,7 @@ This project lets you upload **native or scanned PDFs**, extract the content usi
 
 1. Clone the Repo
 
-git clone https://github.com/yourusername/ChatWithPdf.git
+git clone https://github.com/magf00r/ChatWithPdf.git
 cd ChatWithPdf
 
 
