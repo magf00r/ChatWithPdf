@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+PyPDF2
+pytesseract
+pdf2image
+langchain
+langgraph
+langchain-groq
+langchain-community
+spacy
+faiss-cpu
+streamlit
+requests
