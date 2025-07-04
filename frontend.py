@@ -39,7 +39,7 @@ uploaded_file = st.sidebar.file_uploader("Upload PDF", type=["pdf"])
 
 if uploaded_file:
     if uploaded_file.name != st.session_state.uploaded_filename:
-        with st.spinner("📚 Indexing file and generating summary..."):
+        with st.spinner("📚 Indexing file and Storing in Vector DB..."):
             try:
                 res = requests.post(
                     "http://localhost:8000/upload/",
