@@ -72,7 +72,7 @@ sudo apt install poppler-utils
 
 🪟 Windows:
 
-1. Download: https://github.com/tesseract-ocr/tesseract/wiki
+1. Download: https://pypi.org/project/pytesseract/
 
 
 2. In backend.py, set:
