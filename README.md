@@ -37,5 +37,3 @@ An AI-powered chatbot that lets you upload a PDF (including scanned documents), 
 ```bash
 git clone https://github.com/magf00r/ChatWithPdf.git
 cd ChatWithPdf
-
-
