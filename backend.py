@@ -121,7 +121,7 @@ async def ask_question(
                 "You must only use the above context and the previous conversation history to answer.\n"
                 "Do not use any outside knowledge, even if the answer seems obvious to you.\n"
                 "If the question is unrelated and the context or memory doesn't have the answer, reply:\n"
-                "'I'm sorry, I don't know that based on the document. Could you please provide the answer so I can remember it?'"
+                "'I'm sorry, I don't know that based on the document.'"
                 )
 
     prompt_template = ChatPromptTemplate.from_messages([
