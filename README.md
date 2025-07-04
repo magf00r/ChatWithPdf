@@ -1,46 +1,39 @@
-# 📘 PDF Q&A Chatbot – FastAPI + Streamlit + Groq + LangChain
+# 📄 PDF Q&A Chatbot (Streamlit + FastAPI + Groq + LangGraph + OCR)
 
-This project is a full-stack AI-powered application that allows users to:
-
-- 📄 Upload a PDF document (e.g., guides, manuals)
-- ❓ Ask natural language questions about the content
-- 🧠 Get accurate answers using Generative AI
-- 🗣️ Uses chat memory to remember previous interactions
+An AI-powered chatbot that lets you upload a PDF (including scanned documents), ask questions in natural language, and get accurate answers from the document content — powered by **LangChain**, **Groq LLM**, **LangGraph**, and **FAISS**.
 
 ---
 
-## 🚀 Features
+## 🔍 Features
 
-- 🔍 Extracts text from PDFs using **PyPDF2**
-- 🧾 Fallback **OCR with Groq Scout** for scanned PDFs
-- 🧠 Chat memory powered by **LangGraph + MemorySaver**
-- 🤖 Uses **Groq LLaMA-3.3** and **Scout** for fast, accurate LLM responses
-- 🧠 Semantic search using **Spacy Embeddings** + **FAISS**
-- 💬 Interactive **Streamlit chat interface**
-- ⚙️ Lightweight **FastAPI backend**
-- 📂 Upload PDF and ask multiple questions
-- 🧠 Maintains conversation context per document
-
----
-
-## 🧰 Tech Stack
-
-| Layer       | Stack                                |
-|-------------|--------------------------------------|
-| Frontend    | Streamlit                            |
-| Backend     | FastAPI                              |
-| Embeddings  | Spacy (`en_core_web_sm`)             |
-| LLM         | Groq (`LLaMA-3.3`, `Scout`)           |
-| Memory      | LangGraph + MemorySaver              |
-| OCR         | Groq Scout (multimodal model)        |
-| Vector DB   | FAISS                                |
+- ✅ Upload **native or scanned PDFs**
+- ✅ Extract text using **PyPDF2** and **OCR (Tesseract + pdf2image)**
+- ✅ Build vector index using **FAISS** + **SpaCy embeddings**
+- ✅ Ask natural language questions in **chat format**
+- ✅ Responses generated using **Groq LLM (LLaMA3)** with **LangGraph memory**
+- ✅ Summary generation of uploaded PDFs
+- ✅ Streamlit-based interactive UI
+- ✅ FastAPI-based backend
 
 ---
 
-## 📦 Installation
+## 🛠️ Tech Stack
 
-### 1. Clone the repository
+| Layer        | Tech Used                        |
+|--------------|----------------------------------|
+| 🧠 LLM       | Groq (LLaMA3 70B via LangChain)  |
+| 🔗 Orchestration | LangChain, LangGraph         |
+| 📚 Vector DB | FAISS + SpaCy embeddings         |
+| 📄 PDF Parsing | PyPDF2 + Tesseract OCR         |
+| 🌐 Backend   | FastAPI                          |
+| 🖥️ Frontend  | Streamlit                        |
+
+---
+
+## 🚀 Installation
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/magf00r/ChatWithPdf.git
-cd ChatWithPdf
+git clone https://github.com/yourusername/pdf-qa-chatbot.git
+cd pdf-qa-chatbot
