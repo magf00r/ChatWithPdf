@@ -45,7 +45,7 @@ cd ChatWithPdf
 
 🪟 Windows:
 
-1. Download: http://blog.alivate.com.au/poppler-windows/
+1. Download: https://github.com/oschwartz10612/poppler-windows/releases/
 
 
 2. Extract and copy the path to the bin directory (e.g., C:\poppler\Library\bin)
