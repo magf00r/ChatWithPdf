@@ -1,22 +1,30 @@
-📄 ChatWithPdf – PDF Q&A Chatbot (Groq + FastAPI + Streamlit + OCR)
+# 📄 ChatWithPdf – PDF Q&A Chatbot (Streamlit + FastAPI + Groq + OCR)
 
-A powerful tool to upload PDFs (native or scanned), extract the content using OCR or text parsing, and ask natural language questions powered by Groq’s LLaMA3-70B.
-
+This project lets you upload **native or scanned PDFs**, extract the content using **OCR or text parsing**, and ask natural language questions. It answers using **Groq’s LLaMA3-70B**, powered by **LangChain**, **LangGraph**, **FAISS**, and **Streamlit + FastAPI**.
 
 ---
 
-🚀 Features
+## 🚀 Features
 
-Ask questions based on uploaded PDFs
+- 🧠 Answers questions from your PDF using Groq's LLM (LLaMA3-70B)
+- 📄 Extracts text from scanned PDFs using Tesseract OCR
+- 📚 Embeds text with SpaCy + FAISS for fast retrieval
+- 💬 Chat interface with context & memory using LangGraph
+- 🖥️ FastAPI backend + Streamlit frontend
+- 📑 Generates a summary of the document
 
-Works with both native and scanned PDFs
+---
 
-Summarizes documents automatically
+## 🛠 Tech Stack
 
-Uses LangChain, LangGraph, FAISS, SpaCy, and Groq
-
-FastAPI backend + Streamlit frontend
-
+| Layer       | Tech Used                       |
+|-------------|----------------------------------|
+| LLM         | Groq (LLaMA3-70B)                |
+| Vectorstore | FAISS + SpaCy Embeddings         |
+| Memory      | LangGraph + LangChain            |
+| OCR         | pdf2image + pytesseract          |
+| Frontend    | Streamlit                        |
+| Backend     | FastAPI                          |
 
 
 ---
