@@ -35,5 +35,5 @@ An AI-powered chatbot that lets you upload a PDF (including scanned documents), 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/pdf-qa-chatbot.git
-cd pdf-qa-chatbot
+git clone https://github.com/magf00r/ChatWithPdf.git
+cd ChatWithPdf
