@@ -34,6 +34,7 @@ This project lets you upload **native or scanned PDFs**, extract the content usi
 1. Clone the Repo
 
 git clone https://github.com/magf00r/ChatWithPdf.git
+
 cd ChatWithPdf
 
 
@@ -45,13 +46,13 @@ cd ChatWithPdf
 
 🪟 Windows:
 
-1. Download: https://github.com/oschwartz10612/poppler-windows/releases/
+## 1. Download: https://github.com/oschwartz10612/poppler-windows/releases/
 
 
-2. Extract and copy the path to the bin directory (e.g., C:\poppler\Library\bin)
+## 2. Extract and copy the path to the bin directory (e.g., C:\poppler\Library\bin)
 
 
-3. In backend.py, set:
+## 3. In backend.py, set:
 
 
 
@@ -95,8 +96,11 @@ sudo apt install tesseract-ocr
 3. Create & Activate Virtual Environment
 
 python -m venv venv
+
 # Activate
+
 source venv/bin/activate       # macOS/Linux
+
 venv\Scripts\activate          # Windows
 
 
@@ -105,6 +109,7 @@ venv\Scripts\activate          # Windows
 4. Install Python Dependencies
 
 pip install -r requirements.txt
+
 python -m spacy download en_core_web_sm
 
 
@@ -113,6 +118,7 @@ python -m spacy download en_core_web_sm
 5. Create .env File
 
 # .env
+
 GROQ_API_KEY=your_groq_api_key_here
 
 
